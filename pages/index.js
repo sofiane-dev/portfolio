@@ -63,7 +63,7 @@ const Home = () => (
           Work
         </Heading>
         <Paragraph>
-          I'am a full-stack software engineer based in Algiers with a passion
+          I&apos; am a full-stack software engineer based in Algiers with a passion
           for building digital solutions. I have a knack for all things,
           launching products, from planning and designing all the way to solving
           real-life problems with code.
