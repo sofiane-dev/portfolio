@@ -4,6 +4,7 @@ import Section from '../components/section'
 import { WorkGridItem } from '../components/grid-item'
 
 import thumbMirsad from '../public/images/works/mirsad.png'
+import thumbMaktaba from '../public/images/works/maktaba.png'
 
 const Works = () => (
   <Layout title='Works'>
@@ -16,6 +17,11 @@ const Works = () => (
         <Section>
           <WorkGridItem id='mirsad' title='Mirsad' thumbnail={thumbMirsad}>
             A solution for real-time monitoring.
+          </WorkGridItem>
+        </Section>
+        <Section>
+          <WorkGridItem id='maktaba' title='Maktaba' thumbnail={thumbMaktaba}>
+            A library digitization solution
           </WorkGridItem>
         </Section>
       </SimpleGrid>
