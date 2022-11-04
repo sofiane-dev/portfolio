@@ -13,6 +13,4 @@
 
 MIT License.
 
-- Inspired By This [portfolio](https://www.craftz.dog/)
-
 Check out [LICENSE](./LICENSE) for more detail.
