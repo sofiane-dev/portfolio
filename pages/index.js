@@ -14,7 +14,7 @@ import Paragraph from '../components/paragraph'
 import { BioSection, BioYear } from '../components/bio'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
-import { IoLogoGithub } from 'react-icons/io5'
+import { IoLogoGithub, IoLogoLinkedin,IoLogoFacebook } from 'react-icons/io5'
 import Image from 'next/image'
 
 const ProfileImage = chakra(Image, {
@@ -63,7 +63,7 @@ const Home = () => (
           Work
         </Heading>
         <Paragraph>
-          I&apos; am a full-stack software engineer based in Algiers with a passion
+          I&apos; am a full-stack software engineer based in Algeria with a passion
           for building digital solutions. I have a knack for all things,
           launching products, from planning and designing all the way to solving
           real-life problems with code.
@@ -135,6 +135,30 @@ const Home = () => (
                 leftIcon={<IoLogoGithub />}
               >
                 @sofiane-dev
+              </Button>
+            </Link>
+          </ListItem>
+
+          <ListItem>
+            <Link href='https://www.linkedin.com/in/sbenmahiddine/' target='_blank'>
+              <Button
+                variant='ghost'
+                colorScheme='teal'
+                leftIcon={<IoLogoLinkedin/>}
+              >
+                @sofiane
+              </Button>
+            </Link>
+          </ListItem>
+
+          <ListItem>
+            <Link href='https://facebook.com/sofiene.Benmahiddine/' target='_blank'>
+              <Button
+                variant='ghost'
+                colorScheme='teal'
+                leftIcon={<IoLogoFacebook/>}
+              >
+                @sofiane
               </Button>
             </Link>
           </ListItem>

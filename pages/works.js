@@ -5,12 +5,13 @@ import { WorkGridItem } from '../components/grid-item'
 
 import thumbMirsad from '../public/images/works/mirsad.png'
 import thumbMaktaba from '../public/images/works/maktaba.png'
+import thumbCvlj from '../public/images/works/cvlj.png'
 
 const Works = () => (
   <Layout title='Works'>
     <Container pt={14}>
       <Heading as='h3' fontSize={20} mb={4}>
-        Works
+        Some of my works
       </Heading>
 
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
@@ -22,6 +23,11 @@ const Works = () => (
         <Section>
           <WorkGridItem id='maktaba' title='Maktaba' thumbnail={thumbMaktaba}>
             A library digitization solution
+          </WorkGridItem>
+        </Section>
+        <Section delay={0.1}>
+          <WorkGridItem id='cvlj' title='Cvlj' thumbnail={thumbCvlj}>
+            A summer camp management application 
           </WorkGridItem>
         </Section>
       </SimpleGrid>
