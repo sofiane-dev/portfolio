@@ -21,21 +21,15 @@ const Works = () => (
 
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
         <Section>
-          <WorkGridItem id='mirsad' title='Mirsad' thumbnail={thumbMirsad}>
-            A solution for real-time monitoring.
+          <WorkGridItem id='eams' title='Eams' thumbnail={thumbEams}>
+            An event management platform Used in the Arab Summit 2022
           </WorkGridItem>
         </Section>
         <Section>
-          <WorkGridItem id='maktaba' title='Maktaba' thumbnail={thumbMaktaba}>
-            A library digitization solution
-          </WorkGridItem>
-        </Section>
-        <Section delay={0.1}>
           <WorkGridItem id='cvlj' title='Cvlj' thumbnail={thumbCvlj}>
             A summer camp management application
           </WorkGridItem>
         </Section>
-
         <Section delay={0.1}>
           <WorkGridItem
             id='accreditation'
@@ -46,13 +40,11 @@ const Works = () => (
             2022
           </WorkGridItem>
         </Section>
-
-        <Section delay={0.2}>
-          <WorkGridItem id='eams' title='Eams' thumbnail={thumbEams}>
-            An event management platform
+        <Section delay={0.1}>
+          <WorkGridItem id='maktaba' title='Maktaba' thumbnail={thumbMaktaba}>
+            A library digitization solution
           </WorkGridItem>
         </Section>
-
         <Section delay={0.2}>
           <WorkGridItem
             id='icoshouse'
@@ -62,7 +54,15 @@ const Works = () => (
             Smart Home Project
           </WorkGridItem>
         </Section>
-
+        <Section delay={0.2}>
+          <WorkGridItem
+            id='cinegate'
+            title='Cinegate'
+            thumbnail={thumbCinegate}
+          >
+            Movie theater access management system
+          </WorkGridItem>
+        </Section>
         <Section delay={0.3}>
           <WorkGridItem
             id='stockmetrics'
@@ -72,14 +72,9 @@ const Works = () => (
             Real-time warehouse monitoring
           </WorkGridItem>
         </Section>
-
         <Section delay={0.3}>
-          <WorkGridItem
-            id='cinegate'
-            title='Cinegate'
-            thumbnail={thumbCinegate}
-          >
-            Movie theater access management system
+          <WorkGridItem id='mirsad' title='Mirsad' thumbnail={thumbMirsad}>
+            A solution for real-time monitoring.
           </WorkGridItem>
         </Section>
       </SimpleGrid>

@@ -4,7 +4,7 @@ import {
   List,
   ListItem,
 } from '@chakra-ui/react'
-import { Title, WorkImage, Meta } from '../../components/work'
+import { Title, Meta } from '../../components/work'
 import P from '../../components/paragraph'
 import Layout from '../../components/layouts/article'
 
@@ -34,7 +34,6 @@ const Work = () => (
           <span>Atmega328P, SIM800, NEO-6M</span>
         </ListItem>
       </List>
-      <WorkImage src='/images/works/mirsad_01.jpg' alt='Mirsad' />
     </Container>
   </Layout>
 )

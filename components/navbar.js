@@ -41,24 +41,24 @@ const Navbar = props => {
 
   return (
     <Box
-      position="fixed"
-      as="nav"
-      w="100%"
+      position='fixed'
+      as='nav'
+      w='100%'
       bg={useColorModeValue('#ffffff40', '#20202380')}
       css={{ backdropFilter: 'blur(10px)' }}
       zIndex={2}
       {...props}
     >
       <Container
-        display="flex"
+        display='flex'
         p={2}
-        maxW="container.md"
-        wrap="wrap"
-        align="center"
-        justify="space-between"
+        maxW='container.md'
+        wrap='wrap'
+        align='center'
+        justify='space-between'
       >
-        <Flex align="center" mr={5}>
-          <Heading as="h1" size="lg" letterSpacing={'tighter'}>
+        <Flex align='center' mr={5}>
+          <Heading as='h1' size='lg' letterSpacing={'tighter'}>
             <Logo />
           </Heading>
         </Flex>
@@ -67,19 +67,22 @@ const Navbar = props => {
           direction={{ base: 'column', md: 'row' }}
           display={{ base: 'none', md: 'flex' }}
           width={{ base: 'full', md: 'auto' }}
-          alignItems="center"
+          alignItems='center'
           flexGrow={1}
           mt={{ base: 4, md: 0 }}
         >
-          <LinkItem href="/works" path={path}>
+          <LinkItem href='/works' path={path}>
             Works
           </LinkItem>
+          <LinkItem href='/files/resume-en.pdf' target='_blank' path={path}>
+            Resume
+          </LinkItem>
           <LinkItem
-            target="_blank"
-            href="https://github.com/sofiane-dev/portfolio"
+            target='_blank'
+            href='https://github.com/sofiane-dev/portfolio'
             path={path}
-            display="inline-flex"
-            alignItems="center"
+            display='inline-flex'
+            alignItems='center'
             style={{ gap: 4 }}
             pl={2}
           >
@@ -88,27 +91,27 @@ const Navbar = props => {
           </LinkItem>
         </Stack>
 
-        <Box flex={1} align="right">
+        <Box flex={1} align='right'>
           <ThemeToggleButton />
 
           <Box ml={2} display={{ base: 'inline-block', md: 'none' }}>
-            <Menu isLazy id="navbar-menu">
+            <Menu isLazy id='navbar-menu'>
               <MenuButton
                 as={IconButton}
                 icon={<HamburgerIcon />}
-                variant="outline"
-                aria-label="Options"
+                variant='outline'
+                aria-label='Options'
               />
               <MenuList>
-                <NextLink href="/" passHref>
+                <NextLink href='/' passHref>
                   <MenuItem as={Link}>About</MenuItem>
                 </NextLink>
-                <NextLink href="/works" passHref>
+                <NextLink href='/works' passHref>
                   <MenuItem as={Link}>Works</MenuItem>
                 </NextLink>
                 <MenuItem
                   as={Link}
-                  href="https://github.com/sofiane-dev/portfolio"
+                  href='https://github.com/sofiane-dev/portfolio'
                 >
                   View Source
                 </MenuItem>

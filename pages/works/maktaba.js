@@ -1,5 +1,5 @@
 import { Container, Badge, List, ListItem } from '@chakra-ui/react'
-import { Title, WorkImage, Meta } from '../../components/work'
+import { Title, Meta } from '../../components/work'
 import P from '../../components/paragraph'
 import Layout from '../../components/layouts/article'
 
@@ -23,8 +23,6 @@ const Work = () => (
           <span>Java, MariaDB, Spring, React, Material UI, Docker</span>
         </ListItem>
       </List>
-      <WorkImage src='/images/works/maktaba_01.png' alt='Maktaba' />
-      <WorkImage src='/images/works/maktaba_02.png' alt='Maktaba' />
     </Container>
   </Layout>
 )
