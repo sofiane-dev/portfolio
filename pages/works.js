@@ -22,15 +22,10 @@ const Works = () => (
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
         <Section>
           <WorkGridItem id='eams' title='Eams' thumbnail={thumbEams}>
-            An event management platform Used in the Arab Summit 2022
+            An event management platform used for the Arab Summit 2022
           </WorkGridItem>
         </Section>
         <Section>
-          <WorkGridItem id='cvlj' title='Cvlj' thumbnail={thumbCvlj}>
-            A summer camp management application
-          </WorkGridItem>
-        </Section>
-        <Section delay={0.1}>
           <WorkGridItem
             id='accreditation'
             title='Accréditation'
@@ -38,6 +33,11 @@ const Works = () => (
           >
             An HR management software used for the Mediterranean Games of Oran
             2022
+          </WorkGridItem>
+        </Section>
+        <Section delay={0.1}>
+          <WorkGridItem id='cvlj' title='Cvlj' thumbnail={thumbCvlj}>
+            A summer camp management application
           </WorkGridItem>
         </Section>
         <Section delay={0.1}>

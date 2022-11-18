@@ -10,7 +10,7 @@ const Work = () => (
         Maktaba <Badge>2020</Badge>
       </Title>
       <P>
-        A library digitization solution. Based on RFID technology and deployed
+        A library digitization solution for the ministery of culture. Based on RFID technology and deployed
         in more than 10 cities in Algeria.
       </P>
       <List ml={4} my={4}>

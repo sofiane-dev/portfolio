@@ -9,7 +9,7 @@ const Work = () => (
       <Title>
         Icoshouse <Badge>2016</Badge>
       </Title>
-      <P>Smart home design project for ICOSNET company</P>
+      <P>Smart home project for ICOSNET company</P>
       <List ml={4} my={4}>
         <ListItem>
           <Meta>Platform</Meta>
